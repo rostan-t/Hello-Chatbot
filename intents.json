@@ -1,0 +1,45 @@
+[
+    {
+        "class": "greeting",
+        "patterns": [
+            "Hi", "Hello", "Hello there"
+        ],
+        "responses": [
+            "Nice to see youy again!", "Hi, I'm glad to see you"
+        ]
+    },
+    {
+        "class": "mood",
+        "patterns": [
+            "How are you doing?",
+            "How have you been?",
+            "What's up?",
+            "Wassup?"
+        ],
+        "responses": [
+            "I'm fine, thank you",
+            "I don't really experience what you call 'feelings'"
+        ]
+    },
+    {
+        "class": "joke",
+        "patterns": [
+            "Tell me a joke",
+            "Tell me something funny",
+            "Make me laugh"
+        ],
+        "responses": [
+            "What's worse than a baby in a garbage can?\n A baby in two garbage cans!",
+            "What is HIJKLMNO?\nH2O"
+        ]
+    },
+    {
+        "class": "bye",
+        "patterns": [
+            "Good bye", "Bye", "See you"
+        ],
+        "responses": [
+            "I hope to see you soon", "Good bye"
+        ]
+    }
+]

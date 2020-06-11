@@ -1,45 +1,116 @@
 [
     {
-        "class": "greeting",
-        "patterns": [
-            "Hi", "Hello", "Hello there"
-        ],
-        "responses": [
-            "Nice to see youy again!", "Hi, I'm glad to see you"
-        ]
+      "class": "greeting",
+      "patterns": [
+            "Bonjour",
+            "Salut",
+            "Coucou",
+            "Hi",
+            "Hello",
+            "Hey",
+            "Bonsoir",
+            "Y a quelqu'un ?",
+            "T'es là ?"
+      ],
+      "responses": [
+            "Content de te revoir.",
+            "Bonjour.",
+            "Coucou.",
+            "Hello !",
+            "Bonjour à toi aussi."
+      ],
+      "next_class": []
     },
     {
-        "class": "mood",
-        "patterns": [
-            "How are you doing?",
-            "How have you been?",
-            "What's up?",
-            "Wassup?"
-        ],
-        "responses": [
-            "I'm fine, thank you",
-            "I don't really experience what you call 'feelings'"
-        ]
+      "class": "bye",
+      "patterns": [
+            "Au revoir",
+            "À plus",
+            "A+",
+            "Bye",
+            "À bientôt",
+            "Adieu",
+            "À plus tard"
+      ],
+      "responses": [
+            "Au revoir !",
+            "À bientôt.",
+            "J'espère te revoir bientôt."
+      ],
+      "next_class": []
     },
     {
-        "class": "joke",
-        "patterns": [
-            "Tell me a joke",
-            "Tell me something funny",
-            "Make me laugh"
-        ],
-        "responses": [
-            "What's worse than a baby in a garbage can?\n A baby in two garbage cans!",
-            "What is HIJKLMNO?\nH2O"
-        ]
+      "class": "joke",
+      "patterns": [
+            "Raconte-moi une blague",
+            "Fais-moi rire",
+            "Dis-moi quelque chose de drôle",
+            "J'ai envie de rire"
+      ],
+      "responses": [
+            "Comment appelle-t-on un rat auquel on a enlevé la queue ?\nUn raccourci.",
+            "Qu'est-ce qui est jaune, rond et petit ?\nUn petit rond jaune.",
+            "C'est l'histoire d'un aveugle qui rentre dans un bar... puis dans une table, puis dans une chaise."
+      ],
+      "next_class": []
     },
     {
-        "class": "bye",
-        "patterns": [
-            "Good bye", "Bye", "See you"
-        ],
-        "responses": [
-            "I hope to see you soon", "Good bye"
-        ]
+      "class": "mood",
+      "patterns": [
+            "Comment vas-tu ?",
+            "Ça va ?",
+            "Comment ça va ?",
+            "Tu vas bien ?",
+            "Ça roule ?"
+      ],
+      "responses": [
+            "Ça roule.",
+            "J'apprécie ta compagnie.",
+            "La patate !",
+            "Nickel !",
+            "Très bien, merci de t'en soucier."
+      ],
+      "next_class": []
+    },
+    {
+      "class": "how_to_code",
+      "patterns": [
+            "Comment programmer ?",
+            "Comment écrire du code ?",
+            "Qu'est-ce que le code ?",
+            "Qu'est-ce qu'un langage de programmation ?",
+            "Qu'est-ce qu'un language de programmation ?"
+      ],
+      "responses": [
+            "Un langage de programmation permet de donner des instructions à un ordinateur. Ces instructions sont formulées de manière claires et précises, compréhensibles par un être humain. Ces instructions sont ensuite traduites en code machine qui est le seul que les ordinateurs comprennent. Il existe de nombreux langages de programmation, pour des tâches extrêmement variées.",
+            "Lorsque l'on souhaite donner des instructions à un ordinateur, on utilise un langage de programmation. Il permet de définir des instructions à la fois claires et compréhensible par un humain. Le code écrit doit ensuite être traduit par un logiciel spécifique à chaque langage dans le langage que les machines comprennent."
+      ]
+    },
+    {
+      "class": "what_is_language",
+      "patterns": [
+            "Quels sont les langages de programmation ?",
+            "Quels sont les languages de programmation ?",
+            "Quel est le meilleur langage de programmation ?"
+            "Quel est le meilleur language de programmation ?",
+            "Explique-moi ce qu'est un langage de programmation"
+      ],
+      "responses": [
+            "Il existe un très grand nombre de langages de programmation et il n'en existe pas de meilleur dans l'absolu. En effet, le meilleur langage dépend de ce que l'on souhaite réaliser. Si l'on souhaite écrire des applications iOS, on peut par exemple utiliser Objective-C ou Swift, pour le traitement de données, on compte Python, R ou Julia parmi les possibilités. Une liste non exhaustive de langages de programmation est disponible ici: https://fr.wikipedia.org/wiki/Liste_de_langages_de_programmation."
+      ],
+      "next_class": []
+    },
+    {
+      "class": "what_is_algorithm",
+      "patterns": [
+            "Qu'est-ce qu'un algorithme ?",
+            "Que sont les algorithmes ?",
+            "Explique-moi ce qu'est un algorithme."
+      ],
+      "responses": [
+            "Un algorithme est une suite non ambiguë d'instructions, un peu comme une recette de cuisine.",
+            "Le terme algorithme désigne toute suite d'instructions non ambiguës. Dans un sens, une recette de cuisine peut être considérée comme un algorithme."
+      ],
+      "next_class": []
     }
 ]
